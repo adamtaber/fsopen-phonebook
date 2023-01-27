@@ -4,7 +4,7 @@ GET http://localhost:3001/api/contacts
 GET http://localhost:3001/api/contacts/1
 
 ###
-DELETE http://localhost:3001/api/contacts/1
+DELETE http://localhost:3001/api/contacts/63d180fb6af8ed5143823
 
 ###
 POST http://localhost:3001/api/contacts
@@ -29,6 +29,15 @@ POST http://localhost:3001/api/contacts
 Content-Type: application/json
 
 {
+  "name": "ab",
+  "number": "81038"
+}
+
+###
+POST http://localhost:3001/api/contacts
+Content-Type: application/json
+
+{
   "name": "Arto Hellas",
-  "number": "12345"
+  "number": "015938"
 }
